@@ -1,23 +1,23 @@
-# CIS400 HCI TEAM PROJECT
+# MindMend Website
 
-## PROBLEM (What our project is going to be on)
+This is the official site for the MindMend HCI project. The website includes:
+- **index.html**: Home page
+- **projectOverview.html**: Context, problem, goals
+- **designProcess.html**: Research, personas, journey maps
+- **prototype.html**: Prototype demo and feedback
+- **heuristicEvaluation.html**: Usability analysis
+- **reflections.html**: Summary and reflections
+- **style.css**: Custom styling
+- **script.js**: Optional interactivity
+- **assets/**: Images and diagrams
 
-Having access to free or affordable help and medication, effeciently, for people with mental illness
+## How to Run
+Clone or download the repo, open `index.html` in a browser.
 
-## Requirements--
-
--TBD
-
-## Team Members
-Yassin Elsharafi<br>
-Aaron Lin
-
-## How to Install/Run
-
-To run the project, 
-
-# TBD
-
-To download the dependencies, run
-
-# TBD
+## Pages
+- [Home](index.html)
+- [Project Overview](projectOverview.html)
+- [Design Process](designProcess.html)
+- [Prototyping](prototype.html)
+- [Heuristic Evaluation](heuristicEvaluation.html)
+- [Reflections](reflections.html)
