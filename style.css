@@ -1,17 +1,18 @@
 body {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #f7f7f7;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #a7f2f1; /* Aqua background */
     color: #1e1e1e;
     scroll-behavior: smooth;
   }
   
   header {
-    background: linear-gradient(120deg, #d4f5d4, #b8ebb8);
+    background: linear-gradient(120deg, #a7f2f1, #c3ecfc);
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     color: #1e1e1e;
   }
   
@@ -30,7 +31,7 @@ body {
   nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1e1e1e;
+    color: #6c63ff; /* Purple highlight */
   }
   
   nav ul {
@@ -47,11 +48,10 @@ body {
   }
   
   nav ul li a:hover {
-    color: #4caf50;
+    color: #6c63ff;
   }
   
   .hero {
-    text-align: center;
     margin: auto;
     padding: 2rem;
   }
@@ -59,16 +59,18 @@ body {
   .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #343a40;
   }
   
   .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    color: #343a40;
   }
   
   .hero .btn {
-    background-color: #7dd87d;
-    color: #fff;
+    background-color: #00cfe8; /* Sky blue */
+    color: white;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 30px;
@@ -78,23 +80,40 @@ body {
   }
   
   .hero .btn:hover {
-    background-color: #63c863;
+    background-color: #00bcd4;
   }
   
   main section {
-    padding: 5rem 2rem;
+    padding: 4rem 2rem;
     max-width: 900px;
-    margin: auto;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-    margin-bottom: 2rem;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  section h2 {
+    color: #4b2aad;
+    font-weight: bold;
   }
   
   section img {
     width: 100%;
     margin-top: 1rem;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
+  }
+  
+  /* Optional: Appointment-style pill buttons */
+  .appointment-btn {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem 1rem;
+    background-color: #00cfe8;
+    color: #fff;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
   }
   
